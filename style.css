@@ -45,7 +45,7 @@ body {
     grid-template-columns: auto auto;
     border-bottom: 3px solid rgb(4, 42, 124);
     background-color: rgb(213, 233, 252);
-    padding-top: 6px;
+    padding-top: 5px;
 }
 
 .fixed-top {
