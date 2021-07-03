@@ -6,19 +6,29 @@ html {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
+body {
+    background-color: rgb(213, 233, 252);
+}
+
 #header {
-    color: blue;
-    padding-top: 25px;
+    color: rgb(5, 58, 170);
+    padding-top: 40px;
 }
 
 .contact-box {
     border: 1px solid black;
 }
 
-.info-box {
-    padding: 20px;
-    border: 1px solid black;
+.aboutme-box {
+    padding: 10px;
 }
+
+.info-box {
+    padding: 10px;
+    border: 2px solid black;
+    background-color: aliceblue;
+}
+
 .grid-2 {
     display: grid;
     grid-template-columns: auto auto;
@@ -30,11 +40,12 @@ html {
 
 .navbar {
     display: grid;
-    font-size: large;
-    padding: 10px;
-    grid-template-columns: auto auto auto;
-    border-bottom: 1px solid black;
-    background-color: white;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-template-columns: auto auto;
+    border-bottom: 3px solid black;
+    background-color: rgb(213, 233, 252);
+    margin-top: 5px;
 }
 
 .fixed-top {
@@ -45,8 +56,13 @@ html {
 
 .text-right {
     text-align:right;
+    margin-right: 15px;
 }
 
 .photo-format {
-    width: 300px
+    width: 350px;
+}
+
+.icon-format {
+    width: 40px;
 }
