@@ -43,7 +43,7 @@ body {
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     grid-template-columns: auto auto;
-    border-bottom: 3px solid black;
+    border-bottom: 3px solid rgb(4, 42, 124);
     background-color: rgb(213, 233, 252);
     padding-top: 5px;
 }
